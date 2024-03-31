@@ -105,6 +105,7 @@
   }
 
   &__clear-completed {
+    visibility: hidden;
     margin: 0;
     padding: 0;
     border: 0;
@@ -129,5 +130,9 @@
     &:active {
       text-decoration: none;
     }
+  }
+
+  .visible {
+    visibility: visible;
   }
 }
